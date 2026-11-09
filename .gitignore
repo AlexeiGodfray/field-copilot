@@ -1,0 +1,12 @@
+# Photos and trained models stay on this machine.
+training/data/
+training/models/
+test-photos/
+
+# The voice model is downloaded by FieldCopilot/Scripts/fetch_voice.swift.
+FieldCopilot/Kokoro/*
+!FieldCopilot/Kokoro/README.md
+.DS_Store
+
+# Xcode per-user state
+xcuserdata/
